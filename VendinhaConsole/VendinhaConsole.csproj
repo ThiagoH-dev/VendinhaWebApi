@@ -19,7 +19,7 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
-	
+
 	<ItemGroup>
 		<EmbeddedResource Include="Mappings\Cliente.hbm.xml" />
 		<EmbeddedResource Include="Mappings\Divida.hbm.xml" />
@@ -29,6 +29,7 @@
 	<ItemGroup>
 		<PackageReference Include="Nhibernate" Version="5.5.1" />
 		<PackageReference Include="Npgsql" Version="8.0.3" />
+		<PackageReference Include="NUnit" Version="4.1.0" />
 	</ItemGroup>
 
 </Project>

@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using NHibernate.Tool.hbm2ddl;
 using System.ComponentModel;
+using VendinhaConsole;
 using VendinhaConsole.Entidades;
 using VendinhaConsole.Services;
 
@@ -29,6 +31,9 @@ static T Input<T>(string output) where T : IParsable<T>
     }
 
 }
+
+GenerateSchema_Fixture.Can_generate_schema();
+SchemaExport 
 
 Console.WriteLine("Vamos criar um Cliente.");
 
